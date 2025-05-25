@@ -1,0 +1,12 @@
+:root
+{
+    --txtcolor :white;
+    --primary-color :#FCC101;
+}
+.name
+{
+    color: var(--txtcolor);
+}
+span{
+    color: var(--primary-color);
+}
