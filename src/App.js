@@ -17,11 +17,11 @@ function App() {
     <BrowserRouter>
       <Header/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path='/project' element={<Project/>}/>
-        <Route path='/blog' element={<Blog/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/contact' element={<Contact/>}/>
+        <Route path="REACTPORTFOLIO/" element={<Home/>}/>
+        <Route path='REACTPORTFOLIO/project' element={<Project/>}/>
+        <Route path='REACTPORTFOLIO/blog' element={<Blog/>}/>
+        <Route path='REACTPORTFOLIO/about' element={<About/>}/>
+        <Route path='REACTPORTFOLIO/contact' element={<Contact/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
