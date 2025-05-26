@@ -1,9 +1,7 @@
 import React, {useState} from 'react'
 import './Header.css'
 import { GiHamburgerMenu,GiCancel } from "react-icons/gi";
-import {
-   Link
-} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 
 const Header = () => {
@@ -24,7 +22,7 @@ const Header = () => {
                <li className='nav-items'><Link onClick={handleClick} to="REACTPORTFOLIO/">Home</Link></li>
                <li className='nav-items'><Link onClick={handleClick} to="REACTPORTFOLIO/blog">Blogs</Link></li>
                <li className='nav-items'><Link onClick={handleClick} to="REACTPORTFOLIO/project">Projects</Link></li>
-               <li className='nav-items'><Link onClick={handleClick} to='REACTPORFOLIO/about'>About</Link></li>
+               <li className='nav-items'><Link onClick={handleClick} to='REACTPORTFOLIO/about'>About</Link></li>
                <li className='nav-items'><Link onClick={handleClick} to='REACTPORTFOLIO/contact'>Contact</Link></li>
             </ul>
         </nav>

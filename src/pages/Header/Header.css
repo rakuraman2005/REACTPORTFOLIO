@@ -1,9 +1,9 @@
 
-:root
+/* :root
 {
     --txtcolor : white;
     --primary-color:#FCC101;
-}
+} */
 ul
 { 
     list-style: none;
@@ -38,6 +38,8 @@ a:hover
     display: none;
 }
 
+
+
 @media screen and (max-width :450px)
 {
     .nav-icons
@@ -66,12 +68,13 @@ a:hover
     .nav-items
     {
         border-top: 1px solid white;
-        padding: 5px 0px;
+        padding: 7px 0px;
     }
     .header
     {
         display: flex;
-         justify-content: space-between;
+        justify-content: space-between;
+        padding-bottom: 10px;
     }
 }
 
