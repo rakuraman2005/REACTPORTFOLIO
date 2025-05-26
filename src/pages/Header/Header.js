@@ -21,11 +21,11 @@ const Header = () => {
             </div>
         <nav className={open ? 'nav-links active':'nav-links'}>
             <ul>
-               <li className='nav-items'> <Link to="/">Home</Link></li>
-               <li className='nav-items'> <Link to="/blog">Blogs</Link></li>
-               <li className='nav-items'><Link to="/project">Projects</Link></li>
-               <li className='nav-items'><Link to='/about'>About</Link></li>
-               <li className='nav-items'><Link to='/contact'>Contact</Link></li>
+               <li className='nav-items'><Link onClick={handleClick} to="/">Home</Link></li>
+               <li className='nav-items'><Link onClick={handleClick} to="/blog">Blogs</Link></li>
+               <li className='nav-items'><Link onClick={handleClick} to="/project">Projects</Link></li>
+               <li className='nav-items'><Link onClick={handleClick} to='/about'>About</Link></li>
+               <li className='nav-items'><Link onClick={handleClick} to='/contact'>Contact</Link></li>
             </ul>
         </nav>
         </header>
