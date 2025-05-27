@@ -1,0 +1,30 @@
+.project-card
+{
+    /* width:33%; */
+    height: 300px;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin: 40px 10px;
+    justify-content: center;
+    box-shadow: 0 0 10px rgb(243, 238, 238);
+}
+.project-image
+{
+    justify-content: center;
+    margin:10px 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.project-title
+{
+    color:white;  
+    justify-self: center;
+}
+.project-content p{
+    padding: 15px 6px;
+}
+.project-btn
+{
+    /* background-color: var(--primary-color); */
+ 
+}
