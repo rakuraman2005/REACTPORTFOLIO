@@ -14,6 +14,7 @@ ul
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: auto;
     align-items: center;
     padding: 0.5rem ;
     position: sticky;
@@ -67,8 +68,8 @@ a:hover
     }
     .nav-items
     {
-        border-top: 1px solid white;
-        padding: 7px 0px;
+        border-top: 1.5px solid white;
+        padding: 15px 0px;
     }
     .header
     {

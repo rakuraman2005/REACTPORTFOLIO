@@ -40,12 +40,12 @@ span{
 {
     background-color: var(--txtcolor);
     color: black;
-    padding: 30px 65px;
+    padding: 0px 65px;
     font-size: larger;
     font-weight: 600;
-    border-radius: 44%;
-    /* margin-top: 6% ; */
-    margin:6% 13%;
+    border-radius: 50px;
+    
+    margin:4% 13%;
 
 }
 .home-links
@@ -62,7 +62,8 @@ span{
 }
 .home-skills
 {
-    width: auto;
+    width: 500px;
+    height:250px;
 }
 
 
@@ -101,8 +102,8 @@ span{
      }
      .home-summary
      {
-        font-size: 14px;
-        padding: 10px 12px;
+        font-size: 16px;
+        padding: 10px 14px;
         margin: 0px;
         line-height:20px ;
      }
@@ -114,11 +115,13 @@ span{
      .home-buttons
      {
         padding: 10px 40px;
-        margin: 0px 20%;
+        margin: 0 24%;
         margin-bottom: 40px; 
+        justify-content: center;
      }
      .home-skills
      {
         width:80%;
+        height: 60%;
      }
 }
