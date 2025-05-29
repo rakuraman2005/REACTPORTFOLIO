@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/REACTPORTFOLIO/static/css/main.219e9d85.css",
-    "main.js": "/REACTPORTFOLIO/static/js/main.30faf552.js",
+    "main.css": "/REACTPORTFOLIO/static/css/main.757e9e28.css",
+    "main.js": "/REACTPORTFOLIO/static/js/main.608e2ba2.js",
     "static/js/453.419a5d54.chunk.js": "/REACTPORTFOLIO/static/js/453.419a5d54.chunk.js",
     "static/media/raku pro pic 2.png": "/REACTPORTFOLIO/static/media/raku pro pic 2.593516178acad42d96b9.png",
     "static/media/skills.png": "/REACTPORTFOLIO/static/media/skills.b88c77293b3b129fa1ca.png",
     "index.html": "/REACTPORTFOLIO/index.html",
-    "main.219e9d85.css.map": "/REACTPORTFOLIO/static/css/main.219e9d85.css.map",
-    "main.30faf552.js.map": "/REACTPORTFOLIO/static/js/main.30faf552.js.map",
+    "main.757e9e28.css.map": "/REACTPORTFOLIO/static/css/main.757e9e28.css.map",
+    "main.608e2ba2.js.map": "/REACTPORTFOLIO/static/js/main.608e2ba2.js.map",
     "453.419a5d54.chunk.js.map": "/REACTPORTFOLIO/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.219e9d85.css",
-    "static/js/main.30faf552.js"
+    "static/css/main.757e9e28.css",
+    "static/js/main.608e2ba2.js"
   ]
 }
