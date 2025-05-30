@@ -8,7 +8,7 @@ const Project = () => {
     <div>
       <h1 className='project-name'><span>P</span>rojects</h1>
       <div className='project-container'>
-      <Projectcard path='./project images/skills.png' title='smart gas system' description='arduino c++ java html css and all components used' source='' live=''/>
+      <Projectcard path='./project images/skills.png' title='smart gas system' description='arduino c++ java html css and all components used' source='https://github.com/rakuraman2005' live='null'/>
       <Projectcard path='./project images/skills.png' title='smart gas system' description='arduino c++ java html css and all components used' source='' live=''/>
       <Projectcard path='./project images/skills.png' title='smart gas system' description='arduino c++ java html css and all components used' source='' live=''/>
       <Projectcard path='./project images/skills.png' title='smart gas system' description='arduino c++ java html css and all components used' source='' live=''/>

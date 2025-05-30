@@ -5,15 +5,15 @@ const Projectcard = ({path,title,description,source,live}) => {
     <>
     <div className='project-card'>
         <div className='project-image'>
-     <img src={path} width='160px' height='120px'/>
+     <img  src={path} width='320px' height='240px'/>
      </div>
       <div className='project-content'>
          <h3 className='project-title'>{title}</h3>
          <p className='project-description'>{description}</p>
       </div>
       <div className="project-btn">
-        <a href={source}>Source</a> 
-        <a href={live}>Live</a>
+         <a href={source}>Source</a>  
+       
       </div>
     </div>
     </>

@@ -7,21 +7,23 @@
     width:100%;
     padding:10px;
     display: grid;
-    grid-template-columns: repeat(3,250px);
+    grid-template-columns: repeat(3,400px);
     column-gap: 80px;
     justify-content: center;
 } 
 @media screen and (max-width:1050px){
     .project-container
     {
-        grid-template-columns: repeat(2,250px);
+        grid-template-columns: repeat(2,350px);
         column-gap:30px;
+        padding: 0;
     }
 }
 @media screen and (max-width:450px)
 {
     .project-container
     {
-        grid-template-columns: repeat(1,250px);
+        grid-template-columns: repeat(1,320px);
+        padding: 0;
     }
 }
